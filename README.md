@@ -1,4 +1,5 @@
-# NFL_Data_Analysis
-Using web scraping tools to retrieve NFL data on past and present players and analyzing that data with machine learning algorithms to determine the correlation between player statistics and their potential induction into the NFL Hall of Fame. 
-
-Currently reviewing Python web scraping with BeautifulSoup, as well as machine learning classification algroithms, before beginning code implementation.
+# National Football League (NFL) Hall of Fame Analysis 
+## Introduction 
+Retired NFL players are inducted into the Pro Football Hall of Fame annually based on their career statistical measures. This project looks to analyze this data for players - specifically at skill positions: quarterback, running back, wide receiver, and tight end - and identify the most crucial stats that lead a player to be added to the Hall. Using classification models, we want to correctly identify enshrined players as accurately as possible and develop a model that can predit whether or not soon-to-be eligible players will also be inducted. 
+## Data
+Player stats were collected from Pro Football Reference at: https://www.pro-football-reference.com/play-index/psl_finder.cgi. This site provides data from the league's inagural year of 1920 through the current NFL season (2020 at the time of this project). Data was collected for each player who played at the afformentioned skill positions at any point within this 100-year period. Current Hall of Fame inductees were 
